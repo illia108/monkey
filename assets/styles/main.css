@@ -132,6 +132,8 @@ nav li a:focus::before, nav li a:focus::after {
     transform:         translateX(0px);
 }
 .illustrations {
+    max-width: 1366px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
