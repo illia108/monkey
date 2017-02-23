@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <div class="content">
+        <div class="content wrapper">
             <nav>
                 <ul>
                     <li><a href="/">home</a></li>
@@ -36,6 +36,9 @@
 
     <div class="wrapper">
         <main>
+            
+            <!--WHAT I DO START-->
+            
             <section id="what-i-do">
                 <div class="content">
                     <div class="section-heading">
@@ -83,6 +86,10 @@
                     
                 </div>
             </section>
+            
+            <!--WHAT I DO END-->
+            
+            <!--MY WORKS START-->
     
             <section id="my-works">
                 <div class="content">
@@ -120,7 +127,11 @@
                 </div>
                 
             </section>
+            
+            <!--MY WORKS END-->
     
+            <!--ABOUT START-->
+            
             <section id="about">
                 <div class="content">
                     <div class="section-heading">
@@ -166,65 +177,96 @@
                     
                 </div>
             </section>
+            
+            <!--ABOUT END-->
     
+            <!--CONTACT START-->
+            
             <section id="contact" class="contact">
-                <h2>contact</h2>
-    
-                <div id="contact-form">
-                    <form action="https://formspree.io/illia.kuzma@gmail.com" method="POST">
-                        <p>
-                            <label for="name">
-                                name:
-                                <input type="text" id="name" name="name">
-                            </label>
-                        </p>
-    
-                        <p>
-                            <label for="email">
-                                email:
-                                <input type="email" id="email" name="email">
-                            </label>
-                        </p>
-    
-                        <p>
-                            <label for="message">
-                                message:
-                                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                            </label>
-                        </p>
-    
-                        <p>
-                            <input type="submit" value="send">
-                        </p>
-                    </form>
-                </div>
-    
-                <div id="social-media">
-                    <ul>
-                        <li><a href="https://www.facebook.com/profile.php?id=100013739358728&ref=bookmarks">Facebook</a></li>
-                        <li><a href="https://twitter.com/IlliaKuzma">Twitter</a></li>
-                        <li><a href="https://plus.google.com/101512190010611558824">Google Plus</a></li>
-                    </ul>
-                </div>
-    
-                <div id="contact-info">
-                    <div class="contact-item">
-                        <h3>address</h3>
-                        <p>Lviv, Ukraine</p>
+                <div class="content">
+                    <div class="section-heading">
+                        <h2 class="half-width center">contact</h2>
                     </div>
-    
-                    <div class="contact-item">
-                        <h3>phone</h3>
-                        <p>+38 093 727 82 35</p>
+                    
+                    <div class="contact-blocks">
+                        <div class="contact-form">
+                            <form action="https://formspree.io/illia.kuzma@gmail.com" method="POST">
+                                <label for="name">
+                                    name:<br>
+                                    <input type="text" id="name" name="name">
+                                </label>
+                                
+                                <label for="email">
+                                    email:<br>
+                                    <input type="email" id="email" name="email">
+                                </label>
+                            
+                                <label for="message">
+                                    message:<br>
+                                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                                </label>
+                            
+                                <div class="container">
+                                    <input type="submit" value="send">    
+                                </div>
+                            
+                            </form>
+                        </div>
+        
+                        <div class="contact-info">
+                            <div id="social-media">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/profile.php?id=100013739358728&ref=bookmarks" target="_blank">
+                                            <img src="assets/images/social-media/facebook.svg" alt="facebook">
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="https://twitter.com/IlliaKuzma" target="_blank">
+                                            <img src="assets/images/social-media/twitter.svg" alt="twitter">
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="https://plus.google.com/101512190010611558824" target="_blank">
+                                            <img src="assets/images/social-media/google-plus.svg" alt="google plus">
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/illia-kuzma-503760137/" target="_blank">
+                                            <img src="assets/images/social-media/linkedin.svg" alt="linkedin">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                
+                            <div id="personal-info">
+                                <div>
+                                    <h3>address</h3>
+                                    <p>Lviv, Ukraine</p>
+                                </div>
+                
+                                <div>
+                                    <h3>phone</h3>
+                                    <p>+38 093 727 82 35</p>
+                                </div>
+                
+                                <div>
+                                    <h3>email</h3>
+                                    <p>illia.kuzma@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
-    
-                    <div class="contact-item">
-                        <h3>email</h3>
-                        <p>illia.kuzma@gmail.com</p>
-                    </div>
+                    
                 </div>
-    
             </section>
+            
+            <!--CONTACT END-->
+            
         </main>
     
         <footer>
