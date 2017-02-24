@@ -5,7 +5,7 @@
 
 /*GENERAL START*/
 html {
-    font-size: 18px;
+    font-size: calc(14px + (26 - 16) * ((100vw - 320px) / (1920 - 320)));
 }
 body {
     margin: 0 auto;
