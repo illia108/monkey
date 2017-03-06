@@ -47,6 +47,7 @@ h3 {
 }
 .section-heading {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   
   margin: 60px 0;
@@ -77,7 +78,7 @@ main .content {
 .center {
   text-align: center;
 }
-.half-width {
+.occupy-width {
   width: 50%;
 }
 footer {
@@ -144,6 +145,13 @@ nav li a:focus::before, nav li a:focus::after {
   width: 30%;
   transform: scaleX(-1);
 }
+#hamburger-menu {
+  font-size: 2rem;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  display: none;
+}
 /*HEADER END*/
 
 /*WHAT I DO START*/
@@ -201,6 +209,7 @@ nav li a:focus::before, nav li a:focus::after {
 }
 .levels > section {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   
   width: 30%;
@@ -236,10 +245,8 @@ nav li a:focus::before, nav li a:focus::after {
 }
 .contact-blocks {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-}
-.contact-blocks > div {
-  width: 50%;
 }
 .contact-form label {
   display: block;
@@ -282,6 +289,7 @@ nav li a:focus::before, nav li a:focus::after {
 }
 .contact-info {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   text-align: center;

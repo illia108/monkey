@@ -1,0 +1,76 @@
+@media (max-width: 750px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  #hamburger-menu {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  .illustrations {
+    justify-content: center;
+  }
+  .illustrations img:last-child {
+    display: none;
+  }
+  .scared-monkey {
+    width: 50%;
+  }
+  .section-heading {
+    margin: 20px 0;
+  }
+  .occupy-width {
+    width: 100%;
+  }
+  .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .skills > section {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .portfolio ul {
+    flex-wrap: wrap;
+  }
+  .levels {
+    flex-wrap: wrap;
+  }
+  .levels > section {
+    width: 100%;
+  }
+  .contact-form form input, textarea {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+  .contact-form form input[type="submit"] {
+    width: 100%;
+  }
+  .contact-info {
+    order: -1;
+  }
+  .contact-info img {
+    width: 50%
+  }
+  #social-media ul {
+    margin-bottom: 30px;
+  }
+  .work-item {
+    width: 100%;
+  }
+  footer p {
+    font-size: 80%;
+  }
+  
+}

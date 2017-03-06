@@ -10,11 +10,12 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300">
   <link rel="stylesheet" href="assets/styles/reset.css">
   <link rel="stylesheet" href="assets/styles/main.css">
-<!--  <link rel="stylesheet" href="assets/styles/mobile.css">-->
+  <link rel="stylesheet" href="assets/styles/mobile.css">
 </head>
 
 <body>
   <header>
+    <div id="hamburger-menu">&#9776;</div>
     <div class="content wrapper">
       <nav>
         <ul>
@@ -32,7 +33,7 @@
       
       <div class="illustrations">
         <img src="assets/images/scared-monkey.svg" alt="scared-monkey" class="scared-monkey">
-        <img src="assets/images/web-dev.svg" alt="web-development" class="half-width">
+        <img src="assets/images/web-dev.svg" alt="web-development" class="occupy-width">
       </div>
     </div>
   </header>
@@ -45,8 +46,8 @@
       <section id="what-i-do">
         <div class="content">
           <div class="section-heading">
-            <h2 class="half-width center">what i do</h2>
-            <p class="half-width center">
+            <h2 class="occupy-width center">what i do</h2>
+            <p class="occupy-width center">
               I am learning HTML, CSS and Javascript at SoftServe's IT Academy. I am interested in Front End Development. I can make a simple static website for You or I can convert psd template into theme.
             </p>
           </div>
@@ -54,7 +55,7 @@
           <div class="skills">
             <section id="skill-html">
               <figure>
-                <img src="assets/images/skills/html_logo.png" alt="html-logo" class="half-width">
+                <img src="assets/images/skills/html_logo.png" alt="html-logo" class="occupy-width">
                 <figcaption><h3>html</h3></figcaption>
               </figure>
               
@@ -65,7 +66,7 @@
       
             <section id="skill-css">
               <figure>
-                <img src="assets/images/skills/css_logo.png" alt="css-logo" class="half-width">
+                <img src="assets/images/skills/css_logo.png" alt="css-logo" class="occupy-width">
                 <figcaption><h3>css</h3></figcaption>
               </figure>
               
@@ -76,7 +77,7 @@
       
             <section id="skill-js">
               <figure>
-                <img src="assets/images/skills/js_logo.png" alt="js-logo" class="half-width">
+                <img src="assets/images/skills/js_logo.png" alt="js-logo" class="occupy-width">
                 <figcaption><h3>js</h3></figcaption>
               </figure>
               
@@ -97,8 +98,8 @@
       <section id="my-works">
         <div class="content">
           <div class="section-heading">
-            <h2 class="half-width center">my works</h2>
-            <p class="half-width center">
+            <h2 class="occupy-width center">my works</h2>
+            <p class="occupy-width center">
               As I've just started my career there is not much to show. But I'll leave this section filled with some pretty images. I'm looking forward to replacing them with real ones!
             </p>
           </div>
@@ -135,11 +136,11 @@
   
       <!--ABOUT START-->
       
-      <!--<section id="about">
+      <section id="about">
         <div class="content">
           <div class="section-heading">
-            <h2 class="half-width center">about</h2>
-            <p class="half-width center">
+            <h2 class="occupy-width center">about</h2>
+            <p class="occupy-width center">
               My skillset is constantly growing. I like exploring new things, especially related to Web Design and Web Development. I believe that a good developer should have a strong understanding of both back and front end!
             </p>
           </div>
@@ -177,7 +178,7 @@
             </section>
           </div>
         </div>
-      </section>-->
+      </section>
       
       <!--ABOUT END-->
   
@@ -186,11 +187,11 @@
       <section id="contact" class="contact">
         <div class="content">
           <div class="section-heading">
-            <h2 class="half-width center">contact</h2>
+            <h2 class="occupy-width center">contact</h2>
           </div>
           
           <div class="contact-blocks">
-            <div class="contact-form">
+            <div class="contact-form occupy-width">
               <form action="https://formspree.io/illia.kuzma@gmail.com" method="POST">
                 <label for="name">
                   name:<br>
@@ -214,7 +215,7 @@
               </form>
             </div>
     
-            <div class="contact-info">
+            <div class="contact-info occupy-width">
               <div id="social-media">
                 <ul>
                   <li>
@@ -274,5 +275,11 @@
       <p class="copyright">Created by Illia Kuzma in 2017. Designed by Anna Dadej in 2015</p>
     </footer>
   </div>
+  
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script type="application/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
