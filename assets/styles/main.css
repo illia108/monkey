@@ -300,4 +300,18 @@ nav li a:focus::before, nav li a:focus::after {
 #personal-info div {
   margin-bottom: 30px;
 }
+.notice {
+  width: 75%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 80%;
+}
+.alert {
+  background-color: coral;
+  color: darkred;
+}
+.success {
+  background-color: lightgreen;
+  color: darkgreen;
+}
 /*CONTACT END*/

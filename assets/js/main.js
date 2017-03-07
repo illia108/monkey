@@ -12,9 +12,12 @@ $(function(){
   });
   
   $(window).scroll(function() {
-    animateOnScrollTo($('.levels'), $('.level-circle'), 'rubberBand');
+    animateOnScrollTo($('#about'), $('.level-circle'), 'flipInX');
     animateOnScrollTo($('.portfolio'), $('.work-item'), 'zoomIn');
   });
+  
+  makePhone();
+  makeEmail();
 });
 
 function toggleMenu(){
@@ -29,4 +32,14 @@ function animateOnScrollTo(scrollTo, animateElement, animation) {
       wH = $(window).height(),
       wS = $(this).scrollTop();
   if (wS > (hT+hH-wH)) { animateElement.addClass('animated ' + animation); }
+}
+
+function makePhone() {
+  $('#my-phone').html(['+38', '093', '727', '82', '35'].join(' '));
+  return;
+}
+
+function makeEmail() {
+  $('#my-email').html(['gmail.com', '@', 'illia.kuzma'].reverse().join(''));
+  return;
 }
