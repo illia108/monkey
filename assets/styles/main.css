@@ -177,20 +177,6 @@ nav li a:focus::before, nav li a:focus::after {
 }
 .portfolio figure img {
   width: 100%;
-  opacity: .8;
-  
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-  
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-.portfolio figure img:hover {
-  opacity: 1;
-  cursor: crosshair;
-  
-  -webkit-transform: scale(1);
-  transform: scale(1);
 }
 /*MY WORKS END*/
 
