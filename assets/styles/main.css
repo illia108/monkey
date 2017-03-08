@@ -2,14 +2,10 @@
   font-family: big-john;
   src: url(../fonts/big-john.otf);
 }
-
+/*GENERAL START*/
 * {
   box-sizing: border-box;
 }
-.clear {
-  clear: both;
-}
-/*GENERAL START*/
 html {
   font-size: 18px;
 }
@@ -91,6 +87,9 @@ footer {
 }
 a:hover {
   cursor: pointer;
+}
+.clear {
+  clear: both;
 }
 /*GENERAL END*/
 
