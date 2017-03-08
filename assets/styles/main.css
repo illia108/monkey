@@ -301,6 +301,7 @@ nav li a:focus::before, nav li a:focus::after {
   margin-bottom: 30px;
 }
 .notice {
+  display: none;
   width: 75%;
   margin-bottom: 15px;
   padding: 10px;

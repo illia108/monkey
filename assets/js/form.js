@@ -5,7 +5,7 @@ $(function() {
     if (validateForm()) {
       sendForm();
     } else {
-      $('#notice').html('Sorry. It seems like Form was filled with bad data.').addClass('alert');
+      showNotice('Sorry. It seems like Form was filled with bad data.', 'alert');
     }
   });
 });
@@ -38,10 +38,19 @@ function sendForm() {
 }
 
 function sendFormError() {
-  $('#notice').html('Something went wrong on the Server. Just use an email.').addClass('alert');
+  showNotice('Something went wrong on the Server. Just use an email.', 'alert');
 }
 
 function sendFormSuccess() {
-  $('#notice').html('Thanks. I will reply ASAP!').addClass('success');
+  showNotice('Thanks. I will reply ASAP!', 'success')
   document.getElementById('contact-form').reset();
+}
+
+function showNotice(text, className) {
+  $('#notice').removeClass();
+  $('#notice').html(text).addClass('notice ' + className).fadeIn();
+  
+  setTimeout(function() {
+    $('#notice').fadeOut();
+  }, 3000);
 }
